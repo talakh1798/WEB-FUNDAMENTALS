@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="name-header">
+            <h1 class="name-header1">Dojo Weather</h1>
+        </div>
+        <div class="content-header">
+            <h3 onclick="display()" class="name-header2">Burbank</h3>
+            <h3 onclick="display()" class="name-header2">Chicago</h3>
+            <h3 onclick="display()" class="name-header2">Dallas</h3>
+        </div>
+    </div>
+    <div class="page">
+        <div class="header-page">
+            <div class="header-page1">
+                <h2>San Jose</h2>
+            </div>
+            <div class="header-page2">
+                <p>show temperature in</p>
+                <select name="Weather" onchange="weather()" id="unit">
+                    <option class="unit-Temp" value="°C">°C</option>
+                    <option class="unit-Temp" value="°F">°F</option>
+            
+                </select>
+            </div>
+        </div>
+        <div class="schedule-weather">
+            <div class="weather">
+                <h2 class="day-weather">Today</h2>
+                <div>
+                    <img src="some_rain.png" alt="rain" class="rain-img">
+                </div>
+                <p>some rain</p>
+                <div class="temperature-today">
+                    <h3 class="first-temp">24°</h3>
+                    <h3 class="second-temp">18°</h3>
+                </div>
+            </div>
+
+            <div class="weather">
+                <h2 class="day-weather">Tomorrow</h2>
+                <div>
+                    <img src="some_sun.png" alt="rain" class="rain-img">
+                </div>
+                <p>some rain</p>
+                <div class="temperature-today">
+                    <h3 class="first-temp">27°</h3>
+                    <h3 class="second-temp">19°</h3>
+                </div>
+            </div>
+
+            <div class="weather">
+                <h2 class="day-weather">Friday</h2>
+                <div>
+                    <img src="some_clouds.png" alt="rain" class="rain-img">
+                </div>
+                <p>some rain</p>
+                <div class="temperature-today">
+                    <h3 class="first-temp">21°</h3>
+                    <h3 class="second-temp">16°</h3>
+                </div>
+            </div>
+
+            <div class="weather">
+                <h2 class="day-weather">Today</h2>
+                <div>
+                    <img src="some_sun.png" alt="rain" class="rain-img">
+                </div>
+                <p>some rain</p>
+                <div class="temperature-today">
+                    <h3 class="first-temp">26°</h3>
+                    <h3 class="second-temp">21°</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-box">
+            <h2 class="header-box">Stop! Cookie time</h2>
+            <div class="info-box">
+                <img src="cookie.png" alt="cookie" class="cookie-img">
+                <p class="pargh-box">We use cookies (sadly not the edible ones) to personalize
+                    content and ads, to provide social media features and to
+                    analyse our traffic.<a href="#">Read more...</a></p>
+                <button onclick="accept()" class="btn">Accept</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripte.js"></script>
+</body>
+
+</html>

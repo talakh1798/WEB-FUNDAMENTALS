@@ -1,0 +1,104 @@
+.header{
+    background-color: lightskyblue;
+    color: aliceblue;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.name-header{
+    margin-left: 40px;
+}
+.name-header1{
+    font-family: sans-serif;
+}
+.content-header{
+    display: flex;
+    align-items: center;
+}
+.page{
+    width: 60%;
+    margin: 0 auto;
+}
+.name-header2{
+    margin-right: 30px;
+    font-family: sans-serif;
+}
+.header-page{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom:2px solid black ;
+}
+.header-page1{
+    display: flex;
+    align-items: center;
+    font-family: monospace;
+}
+.header-page2{
+    display: flex;
+    align-items: center;
+}
+.schedule-weather{
+    display: flex;
+    align-items: center;
+ 
+}
+.weather{
+    width: 30%;
+    background-color: rgb(171, 199, 199);
+    text-align: center;
+    margin-left: 20px; 
+    margin-top: 20px; 
+    
+}
+.day-weather{
+    font-family:monospace;
+    padding-top: 20px;
+}
+.rain-img{
+    border-radius: 50%;
+    width:60%
+
+}
+.temperature-today{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.first-temp{
+    font-family: sans-serif;
+    color: red;
+}
+.second-temp{
+    font-family:sans-serif ;
+    color: blue
+}
+.bottom-box{
+    width:60%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: 10px;
+    position: fixed;
+          
+}
+.header-box{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.info-box{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+ .btn{
+    margin-right: 10px;
+    background-color: lightskyblue;
+    width: 10%;
+    box-shadow: 3px 3px black;
+ }
+ .pargh-box{
+    margin-left: 10px;
+ }

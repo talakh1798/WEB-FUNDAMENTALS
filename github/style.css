@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.GitHub-Blocks{
+    background-color:aliceblue;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: grey;
+}
+
+
+
+img.octocat {
+    height: 200px;
+}
+
+.container-1{
+    background-color: skyblue;
+    border: 1px solid skyblue;
+    display: flex;
+    justify-content: space-around;
+    margin: 60px;
+    padding: 20px ;
+
+}
+
+.container-2{
+    background-color: palevioletred;
+    border: 1px solid palevioletred;
+    display: flex;
+    justify-content: space-around;
+    margin: 60px;
+    padding: 20px;
+
+}
+
+.container-3{
+    background-color:white ;
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+    padding: 20px;    
+}
+
+.footer{
+    
+    text-align: center;
+    font-size: 15px;
+}

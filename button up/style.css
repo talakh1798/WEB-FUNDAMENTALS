@@ -1,0 +1,40 @@
+button{
+    display: block;
+    margin: 20px 0px 10px 20px;
+}
+.search{
+    color:mediumaquamarine ;
+    border: solid;
+    border-color: mediumaquamarine;
+    border-radius: 10px;
+    width: 70px;
+    /* padding-right: 30px;
+    padding-left: 30px; */
+    /* margin: 30px 0px 10px 20px;
+  */
+}
+
+.plus{
+    color: white;
+    background-color: mediumaquamarine;
+    border: solid;
+    border-radius: 50%;
+    border-color: mediumaquamarine;
+    /* padding: 5px 10px 5px 10px;
+    margin: 0px 0px 10px 20px ;
+    */
+    
+
+}
+
+.Create_account{
+    background-color: rgb(56, 100, 231);
+    color: white;
+    border: solid;
+    border-color: black;
+    padding: 5px 20px 5px;
+    box-shadow: 10px 5px 10px 5px black ;
+    /* margin-left: 20px; */
+    
+
+}
